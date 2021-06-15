@@ -1,13 +1,10 @@
-import Head from 'next/head'
+import Meta from '../components/Meta'
 
-const about = ({}) => (
-  <div>
-  <Head>
-    <title>Web Dev About</title>
-    <meta name='keywords' content='web development, programming, about' />
-  </Head>
+const about = () => (
+  <>
+    <Meta title='About' keywords='about-us' description='this is about us page'/>
     <h1>About Us</h1>
-  </div>
+  </>
 );
 
 export default about
